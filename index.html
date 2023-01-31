@@ -9,16 +9,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Front-end developer - Nataliia Trofumchuk</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+    <header><nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="/" title="Homepage"
           >Nataliia Trofymchuk</a
@@ -43,142 +46,137 @@
                 aria-current="page"
                 href="index.html"
                 tilte="Homepage"
-                >Home</a
-              >
+                >Home</a>
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
                 href="about.html"
                 title="About Nataliia Trofymchuk"
-                >About me</a
-              >
+                >About me</a>
+               <li class="nav-item">
+              <a
+                class="nav-link"
+                href="work.html"
+                title="Projects Nataliia Trofymchuk"
+                >Work</a>
+            </li>
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="about.html#contact"
+                href="contact.html"
                 title="Contact Nataliia Trofymchuk"
                 >Contact me</a
               >
             </li>
+           
           </ul>
         </div>
       </div>
-    </nav>
-    <h2 class="text-center">👋 Hi I am</h2>
-    <h1 class="text-center title-index">Nataliia Trofumchyk</h1>
-    <h3 class="text-center information__blok"><img src="./images/flag.jpeg" class="information__logo rounded-pill" alt="..."> <span>
-      Front-end developer, based in Ukraine</span></h3>
-    <div class="navigation-links mb-5">
-      <a
-        href="about.html#contact"
-        class="primary-link"
-        title="Contact Nataliia Trofymchuk"
-        >Contact me</a
-      >
-      <a
-        href="about.html"
-        class="secondary-link"
-        title="About Nataliia Trofymchuk"
-        >About me</a
-      >
-    </div>
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col-sm-6">
-          <a
-            href="https://majatrof.github.io/Sourdough-bread/"
-            class="img__link  d-none d-sm-block"
-            title="Bread project"
-            target="_blank"
-            ><img
-              src="./images/bread.png"
-              alt="Bread project"
-              class="img-fluid rounded"
-            />More...</a
-          >
-        </div>
-        <div class="col-sm-6">
-          <h2 class="mb-3">Page about sourdough bread</h2>
-          <p>
-            My second project, a page about sourdough bread, a recipe for baking
-            such bread. The project was completed on the course She Codes. Built
-            with HTML and CSS
-          </p>
-          <div class="mt-5">
-            <a
-              href="https://github.com/MajaTrof/Sourdough-bread"
-              class="primary-link project-link"
-              title="Yoga project"
-              target="_blank"
-              >Sourdough bread page</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-sm-6">
-          <h2 class="mb-3">Weather app page</h2>
-          <p>
-            My next project, weather forecast page . The project was completed
-            on the course She Codes Plus. Built with HTML, CSS ang Java Script.
-          </p>
-          <div class="mt-5">
-            <a
-              href="https://github.com/MajaTrof/Weather-app"
-              class="primary-link project-link"
-              title="Weather project"
-              target="_blank"
-              >Launch Weather App</a
-            >
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <a
-            href="https://majatrof.github.io/Weather-app/"
-            class="img__link  d-none d-sm-block"
-            target="_blank"
-          >
+    </nav></header>
+    
+
+    <main class="content-container container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="content">
+          <h2>👋 Hi I am</h2>
+          <h1>Nataliia Trofumchyk</h1>
+          <h3 class="information__blok">
             <img
-              src="images/weather.png"
-              class="img-fluid rounded"
-              alt="Weather project"
-            />More...</a
-          >
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-sm-6">
-          <a
-            href="https://majatrof.github.io/Web-site-scss-mobile/"
-            class="img__link  d-none d-sm-block"
-            target="_blank"
-          >
-            <img
-              src="images/web-site.png"
-              class="img-fluid rounded"
-              alt="Web-site project"
-            />More...</a
-          >
-        </div>
-        <div class="col-sm-6">
-          <h2 class="mb-3">Web-site</h2>
-          <p>
-            The web page, which was made according to the layout with Figma,
-            used with HTML, SCSS and java Script.
-          </p>
-          <div class="mt-5">
+              src="./images/flag.jpeg"
+              class="information__logo rounded-pill"
+              alt="..."
+            />
+            <span> Front-end developer, based in Ukraine</span>
+          </h3>
+          <div class="navigation-links mb-5">
             <a
-              href="https://github.com/MajaTrof/Web-site-scss-mobile"
-              class="primary-link project-link"
-              title="Web-site project"
-              target="_blank"
-              >Launch Web-site</a
+              href="about.html#contact"
+              class="primary-link"
+              title="Contact Nataliia Trofymchuk"
+              >Contact me</a
             >
+            <a
+              href="work.html"
+              class="secondary-link"
+              title="projects Nataliia Trofymchuk"
+              >See my projects</a
+            >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="content">
+          <img
+            class="img-fluid rounded img-shadow"
+            src="images/photo.jpg"
+            alt="my photo"
+            width="300px"
+          />
           </div>
         </div>
       </div>
-    </div>
+    </main>
+
+    <footer>
+          <div id="contact" class="mt-1">
+        <h2 class="text-center">📮 Contact me</h2>
+        <a href="mailto:majatrof@gmail.com" class="email-link">
+          majatrof@gmail.com
+        </a>
+      </div>
+        <ul class="contact__social">
+          <li class="social-icons__item">
+            <a
+              href="https://www.instagram.com/maia_trof"
+              class="social-icons__link"
+              aria-label="instagram"
+              target="_blank"
+            >
+              <svg width="20px" height="20px" class="icon">
+                <use href="./images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons__item">
+            <a
+              href="https://github.com/MajaTrof"
+              class="social-icons__link"
+              aria-label="git-hub"
+              target="_blank"
+            >
+              <svg width="20px" height="20px">
+                <use href="./images/sprite.svg#icon-github"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons__item">
+            <a
+              href="https://www.facebook.com/ntrofymchuk/"
+              class="social-icons__link"
+              target="_blank"
+            >
+              <svg width="20px" height="20px" class="">
+                <use href="./images/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons__item">
+            <a
+              href="https://web.telegram.org/k/"
+              class="social-icons__link"
+              aria-label="telegram"
+              target="_blank"
+            >
+              <svg width="20px" height="20px" class="icon">
+                <use href="./images/sprite.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </footer>
   </body>
 </html>
